@@ -10,7 +10,7 @@ const app = express();
 
 // Configura CORS
 app.use(cors({
-  origin: 'http://localhost:5173', // URL de tu frontend
+  origin: 'https://onlywater.neuroseeq.com', // URL de tu frontend
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // Si usas cookies necesitas esta línea
 }));
